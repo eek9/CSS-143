@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Pepper
+comment0.text=This\ Pepper\ class\ is\ one\ of\ the\ bottommost\ subclasses\ in\ the\r\n\ hierarchy\ and\ inherits\ from\ the\ Vegetable\ class,\ as\ well\ as\ from\ the\ Ingredient\r\n\ class,\ which\ includes\ the\ instance\ variables\ of\ a\ customized\ final\r\n\ description,\ cost,\ calorie\ count,\ and\ color\ of\ the\ vegetable\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ December\ 5,\ 2019\r\n
+comment1.params=
+comment1.target=Pepper()
+comment1.text=this\ is\ the\ default\ constructor\ that\ will\ automatically\ plug\ in\ the\ instance\ variables\r\n\ from\ the\ Pepper\ class\ into\ the\ super\ method\ constructor\ that\ accepts\ the\ types\ of\r\n\ String,\ Money,\ and\ int\ in\ that\ order\ to\ initialize\ the\ variables\ based\ on\ the\ customized\r\n\ Pepper\ characteristics\r\n
+comment2.params=c
+comment2.target=Pepper(java.awt.Color)
+comment2.text=this\ is\ a\ constructor\ that\ will\ keep\ all\ the\ description,\ cost,\ and\ calorie\ count\ the\ same\r\n\ as\ the\ initialized\ instance\ variables\ of\ Pepper,\ however\ it\ will\ also\ add\ in\ a\ type\ of\ color\r\n\ of\ that\ pepper\ other\ than\ green\ based\ on\ the\ input\r\n\ @param\ c\ initializing\ color\ of\ the\ pepper\r\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=this\ will\ contain\ a\ driver\ method\ of\ where\ the\ methods\ in\ this\ class\r\nwill\ be\ tested\r\n
+numComments=4

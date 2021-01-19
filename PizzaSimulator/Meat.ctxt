@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Meat
+comment0.text=This\ Meat\ class\ inherits\ from\ the\ Ingredient\ class,\ which\ will\ include\r\n\ the\ instance\ variables\ of\ a\ customized\ final\ description,\ cost,\ and\r\n\ calorie\ count\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ December\ 5,\ 2019\r\n
+comment1.params=
+comment1.target=Meat()
+comment1.text=this\ default\ constructor\ for\ base\ will\ direct\ to\ extended\ Ingredient\r\n\ class'\ no\ argument\ constructor\r\n
+comment2.params=descript\ m\ c
+comment2.target=Meat(java.lang.String,\ Money,\ int)
+comment2.text=this\ constructor\ will\ initialize\ the\ variables\ of\ the\ base\ class\ and\r\n\ call\ the\ method\ from\ the\ extended\ Ingredient\ class\ to\ plug\ in\ the\r\n\ inputted\ values\ in\ order\ to\ set\ them\r\n\ @param\ c\ int\ calorie\ count\r\n\ @param\ m\ Money\ object\ of\ cost\r\n\ @param\ descript\ String\ description\ of\ Ingredient\r\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=this\ will\ contain\ a\ driver\ method\ of\ where\ the\ methods\ in\ this\ class\r\nwill\ be\ tested\r\n
+numComments=4
