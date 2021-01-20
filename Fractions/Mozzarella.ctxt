@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Mozzarella
+comment0.text=This\ Mozzarella\ class\ is\ one\ of\ the\ bottommost\ subclasses\ in\ the\r\n\ hierarchy\ and\ inherits\ from\ the\ Cheese\ class,\ as\ well\ as\ from\ the\ Ingredient\r\n\ class,\ which\ includes\ the\ instance\ variables\ of\ a\ customized\ final\r\n\ description,\ cost,\ and\ calorie\ count\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ December\ 5,\ 2019\r\n
+comment1.params=
+comment1.target=Mozzarella()
+comment1.text=this\ is\ the\ default\ constructor\ that\ will\ automatically\ plug\ in\ the\ instance\ variables\r\n\ from\ the\ Mozzarella\ class\ into\ the\ super\ method\ constructor\ that\ accepts\ the\ types\ of\r\n\ String,\ Money,\ and\ int\ in\ that\ order\ to\ initialize\ the\ variables\ based\ on\ the\ customized\r\n\ Mozzarella\ characteristics\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=this\ will\ contain\ a\ driver\ method\ of\ where\ the\ methods\ in\ this\ class\r\nwill\ be\ tested\r\n
+numComments=3

@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.target=Shape
+comment0.text=\ Class\ Shape\r\n\r\n\ By\ Rob\ Nash\ (with\ minor\ edits\ by\ Johnny\ Lin)\r\n\r\n\ This\ is\ the\ superclass\ in\ a\ hierarchy\ of\ shapes\ that\ you\ have\ to\ construct\r\n
+comment1.params=a\ b
+comment1.target=Shape(int,\ int)
+comment1.text=this\ constructor\ will\ initialize\ the\ values\ of\ x\ and\ y\r\n\ @param\ a\ the\ initializing\ x-value\r\n\ @param\ b\ the\ initializing\ y-value\r\n
+comment2.params=a\ b\ c
+comment2.target=Shape(int,\ int,\ java.awt.Color)
+comment2.text=this\ constructor\ will\ initialize\ the\ values\ of\ x\ and\ y,\ as\ well\ as\ the\ color\ of\ the\ shape\r\n\ @param\ a\ the\ initializing\ x-value\r\n\ @param\ b\ the\ initializing\ y-value\r\n\ @param\ c\ the\ initializing\ color\r\n
+comment3.params=
+comment3.target=double\ getArea()
+comment3.text=this\ constructor\ should\ return\ the\ value\ of\ the\ circle\ area\r\n\ @return\ double\ value\ of\ area\r\n
+comment4.params=
+comment4.target=int\ getX()
+comment4.text=this\ is\ the\ getter\ method\ for\ the\ x-value\r\n\ @return\ int\ of\ x\=value\r\n
+comment5.params=
+comment5.target=int\ getY()
+comment5.text=this\ is\ the\ getter\ method\ for\ the\ y-value\r\n\ @return\ int\ of\ y\=value\r\n
+comment6.params=value
+comment6.target=void\ setX(int)
+comment6.text=this\ is\ the\ setter\ method\ to\ assign\ a\ new\ value\ to\ the\r\n\ x-value\r\n\ @param\ value\ int\ value\ of\ new\ x\r\n
+comment7.params=value
+comment7.target=void\ setY(int)
+comment7.text=this\ is\ the\ setter\ method\ to\ assign\ a\ new\ value\ to\ the\r\n\ y-value\r\n\ @param\ value\ int\ value\ of\ new\ y\r\n
+comment8.params=
+comment8.target=Shape\ clone()
+comment8.text=this\ is\ an\ overridden\ method\ from\ the\ cloneable\ interface,\ and\ will\ make\ another\ copy\r\n\ of\ a\ Shape\ object\r\n\ @return\ Shape\ object\ of\ another\ copy\r\n\ @throws\ CloneNotSupportedException\r\n
+numComments=9

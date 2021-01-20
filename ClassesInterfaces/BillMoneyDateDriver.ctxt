@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=BillMoneyDateDriver
+comment0.text=\r\n\ Simple\ driver\ to\ test\ Money,\ Date,\ and\ Bill\ classes\r\n\ @author\ Rob\ Nash,\ borrowed\ from\ cfolsen\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ \ \ \ \ main\ driver\ function\r\n\ \ \ \ \ pre\:\ \ none\r\n\ \ \ \ \ post\:\ exercises\ the\ methods\ in\ Bill,\ Money,\ and\ Date\ (not\ done)\r\n
+numComments=2

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PizzaException
+comment0.text=This\ PizzaException\ class\ is\ inherited\ from\ the\ RuntimeException\ class\r\n\ so\ that\ it\ would\ be\ caught\ during\ runtime,\ whenever\ there\ are\ invalid\ inputs\r\n\ that\ occur\ during\ the\ Pizza\ drivers.\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ December\ 5,\ 2019\r\n
+comment1.params=
+comment1.target=PizzaException()
+comment1.text=when\ this\ method\ is\ called\ as\ the\ PizzaException\ is\ caught,\ it\ will\ call\ the\ default\ constructor\r\n\ of\ its\ extended\ RuntimeException\ class\r\n\r\n
+comment2.params=msg
+comment2.target=PizzaException(java.lang.String)
+comment2.text=when\ this\ method\ is\ called\ with\ an\ input\ of\ the\ message,\ it\ will\ call\ connect\ it\ to\ the\r\n\ constructor\ of\ the\ RunTimeException\ class\ to\ print\ out\ the\ message\ from\ the\ input\r\n\ @param\ msg\ String\ message\ to\ output\r\n
+numComments=3

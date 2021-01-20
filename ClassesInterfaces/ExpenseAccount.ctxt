@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ExpenseAccount
+comment0.text=\r\n\ The\ ExpenseAccount\ class\ will\ inherit\ from\ the\ ArrayList\ class\ with\ also\ using\r\n\ methods\ that\ make\ sense\ to\ use\ in\ an\ Expense\ Account,\ such\ as\ finding\ the\ total\r\n\ expenses,\ the\ list\ of\ paid\ and\ unpaid\ bills,\ and\ removing/adding\ bills\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 21,\ 2019\r\n
+comment1.params=billList
+comment1.target=ExpenseAccount(ArrayList)
+comment1.text=this\ is\ a\ constructor\ that\ copies\ over\ an\ ArrayList\ of\ bills\ into\ a\r\n\ a\ deep\ copy\r\n\r\n\ @param\ billList\ ArrayList\ of\ Bill\ objects\r\n
+comment2.params=
+comment2.target=Money\ findTotalExpenses()
+comment2.text=this\ method\ will\ add\ up\ all\ the\ total\ bill\ fees\ from\ the\ list\ of\ Bills\r\n\r\n\ @return\ a\ Money\ object\ that\ contains\ the\ total\ after\ adding\ up\ all\ the\ bills\r\n
+comment3.params=
+comment3.target=ArrayList\ getPaidList()
+comment3.text=this\ method\ will\ create\ an\ ArrayList\ that\ contains\ all\ the\ bills\ that\ were\ paid\r\n\r\n\ @return\ an\ ArrayList\ of\ paid\ Bill\ objects\r\n
+comment4.params=
+comment4.target=ArrayList\ getUnpaidList()
+comment4.text=this\ method\ will\ create\ an\ ArrayList\ that\ contains\ the\ unpaid\ bills\r\n\r\n\ @return\ an\ ArrayList\ of\ unpaid\ Bills\r\n
+comment5.params=bill
+comment5.target=void\ removeBill(Bill)
+comment5.text=this\ method\ will\ remove\ a\ Bill\ object\ from\ the\ list\ of\ bills\r\n\r\n\ @param\ bill\ a\ Bill\ object\ that\ will\ be\ removed\ from\ the\ list\r\n
+comment6.params=bill
+comment6.target=void\ addBill(Bill)
+comment6.text=this\ method\ will\ add\ a\ bill\ to\ the\ end\ of\ the\ ArrayList\ of\ bills\r\n\r\n\ @param\ bill\ the\ bill\ that\ will\ be\ added\ to\ the\ list\r\n
+numComments=7
