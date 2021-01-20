@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Arrow
+comment0.text=\r\n\ This\ Arrow\ class\ is\ inherited\ from\ the\ Shape\ class\ but\ also\ contains\ the\ data\ members\ of\ a\ height\ and\ width\ of\ an\r\n\ arrow.\ The\ methods\ of\ the\ class\ includes\ accessors/mutators,\ a\ constructor\ that\ also\ inherits\ an\ x\ and\ y\ from\r\n\ the\ parent\ class(Shape),\ an\ area\ of\ the\ arrow\ being\ created,\ and\ also\ the\ calculations\ that\ draw\r\n\ the\ graphic\ arrow\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 31,\ 2019\r\n
+comment1.params=x\ y\ w\ h
+comment1.target=Arrow(int,\ int,\ int,\ int)
+comment1.text=This\ is\ the\ constructor\ for\ our\ child\ class\ where\ we\ also\ plug\ in\ the\ x\ and\ y\ coordinates\ that\r\n\ were\ inherited\ from\ the\ parent\ class,\ Shape\r\n\ @param\ h\ integer\ height\ of\ how\ tall\ the\ arrow\ will\ be\r\n\ @param\ w\ integer\ width\ of\ how\ wide\ the\ arrow\ will\ be\r\n\ @param\ x\ integer\ x\ coordinate\ of\ where\ the\ arrow\ will\ be\ located\r\n\ @param\ y\ integer\ y\ coordinate\ of\ where\ the\ arrow\ will\ be\ located\r\n
+comment2.params=
+comment2.target=int\ getWidth()
+comment2.text=This\ is\ the\ accessor\ of\ the\ integer\ width\r\n\ @return\ the\ value\ of\ the\ width\ of\ the\ arrow\r\n
+comment3.params=
+comment3.target=int\ getHeight()
+comment3.text=This\ is\ the\ accessor\ of\ the\ integer\ height\r\n\ @return\ the\ value\ of\ the\ height\ of\ the\ arrow\r\n
+comment4.params=w
+comment4.target=void\ setWidth(int)
+comment4.text=This\ is\ the\ mutator\ that\ can\ change\ the\ width\ of\ the\ arrow\r\n\ @param\ w\ integer\ width\ is\ what\ will\ set\ the\ width\ size\ of\ the\ arrow\r\n
+comment5.params=h
+comment5.target=void\ setHeight(int)
+comment5.text=This\ is\ the\ mutator\ that\ can\ change\ the\ height\ of\ the\ arrow\r\n\ @param\ h\ integer\ height\ is\ what\ will\ set\ the\ height\ of\ the\ arrow\r\n
+comment6.params=
+comment6.target=double\ getArea()
+comment6.text=This\ method\ measures\ the\ area\ of\ the\ arrow\ through\ the\ calculations\ of\ first\ finding\ the\ area\r\n\ of\ a\ rectangle\ with\ the\ same\ width*height,\ and\ then\ subtracting\ the\ areas\ around\ the\ arrow\ that\ fits\ in\r\n\ rectangle\r\n\ @return\ a\ double\ value\ of\ the\ area\ of\ the\ arrow\r\n
+comment7.params=g
+comment7.target=void\ draw(java.awt.Graphics)
+comment7.text=This\ method\ draws\ the\ arrow\ through\ drawing\ lines\ of\ the\ x-coordinates\ and\ y-coordinates\ that\r\n\ have\ a\ relationship\ with\ each\ other\ to\ make\ the\ arrow\ shape\r\n\ @param\ g\ Graphics\ is\ the\ class\ we\ have\ for\ our\ g\ object\ to\ output\ the\ drawing\ of\ the\ arrow\ shape\r\n
+numComments=8

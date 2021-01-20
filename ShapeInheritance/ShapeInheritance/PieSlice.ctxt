@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=PieSlice
+comment0.text=\r\n\ The\ PieSlice\ class\ is\ inherited\ from\ the\ Shape\ class\ and\ will\ draw\ a\ shape\ that\ is\ in\ the\ shape\ of\ a\ pie\ slice.\r\n\ It\ includes\ its\ own\ data\ member\ of\ a\ radius\ that\ is\ not\ included\ in\ the\ shape\ class.\r\n\ The\ methods\ in\ this\ class\ consists\ of\ accessors/mutators,\ a\ constructor\ that\ also\ initializes\ some\ values\ from\r\n\ the\ Shape\ class,\ overridden\ getArea()\ and\ draw\ method\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 31,\ 2019\r\n
+comment1.params=x\ y\ r
+comment1.target=PieSlice(int,\ int,\ double)
+comment1.text=This\ is\ the\ constructor\ for\ our\ child\ class\ where\ we\ also\ plug\ in\ the\ x\ and\ y\ coordinates\ that\r\n\ were\ inherited\ from\ the\ parent\ class,\ Shape\r\n\ @param\ r\ integer\ radius\ of\ the\ size\ of\ how\ long\ the\ side\ of\ the\ pie\ slice\ will\ be\r\n\ @param\ x\ integer\ x\ coordinate\ of\ where\ the\ PieSlice\ will\ be\ located\r\n\ @param\ y\ integer\ y\ coordinate\ of\ where\ the\ PieSlice\ will\ be\ located\r\n
+comment2.params=
+comment2.target=double\ getRadius()
+comment2.text=This\ is\ the\ accessor\ of\ the\ radius\r\n\ @return\ the\ size\ of\ the\ radius\ in\ a\ double\ value\r\n
+comment3.params=r
+comment3.target=void\ setRadius(double)
+comment3.text=This\ is\ the\ mutator\ of\ the\ radius\r\n\ @param\ r\ double\ radius\ of\ setting\ a\ different\ value\ to\ the\ radius\r\n
+comment4.params=
+comment4.target=double\ getArea()
+comment4.text=This\ method\ calculates\ the\ area\ of\ the\ PieSlice\r\n\ @return\ a\ double\ of\ the\ area\ of\ the\ pie\ slice\ which\ is\ calculated\ from\ first\ finding\ the\ area\ of\ a\ full\r\n\ circle\ and\ then\ multiplying\ by\ a\ 45\ degree\ angle\ that\ represents\ the\ portion\ of\ the\ slice\r\n
+comment5.params=g
+comment5.target=void\ draw(java.awt.Graphics)
+comment5.text=This\ method\ draws\ the\ final\ shape\ of\ the\ PieSlice\r\n\ @param\ g\ Graphics\ is\ the\ class\ we\ have\ for\ our\ g\ object\ to\ output\ the\ drawing\ of\ the\ PieSlice\ shape\r\n
+numComments=6

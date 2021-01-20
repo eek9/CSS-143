@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Hourglass
+comment0.text=\r\n\ The\ Hourglass\ class\ is\ inherited\ from\ the\ Shape\ class.\r\n\ It\ also\ includes\ its\ own\ data\ members\ of\ a\ height\ and\ length,\ as\ well\ as\ methods\ of\ its\ accessors/mutators,\r\n\ area\ of\ the\ Hourglass,\ and\ the\ draw\ method.\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 31,\ 2019\r\n
+comment1.params=x\ y\ w\ h
+comment1.target=Hourglass(int,\ int,\ int,\ int)
+comment1.text=This\ is\ the\ constructor\ for\ our\ child\ class\ where\ we\ also\ plug\ in\ the\ x\ and\ y\ coordinates\ that\r\n\ were\ inherited\ from\ the\ parent\ class,\ Shape\r\n\ @param\ h\ integer\ height\ of\ how\ tall\ the\ hourglass\ will\ be\r\n\ @param\ w\ integer\ width\ of\ how\ wide\ the\ hourglass\ will\ be\r\n\ @param\ x\ integer\ x\ coordinate\ of\ where\ the\ hourglass\ will\ be\ located\r\n\ @param\ y\ integer\ y\ coordinate\ of\ where\ the\ hourglass\ will\ be\ located\r\n
+comment2.params=
+comment2.target=int\ getWidth()
+comment2.text=This\ is\ the\ accessor\ of\ the\ integer\ width\r\n\ @return\ the\ value\ of\ the\ width\ of\ the\ hourglass\r\n
+comment3.params=
+comment3.target=int\ getHeight()
+comment3.text=This\ is\ the\ accessor\ of\ the\ integer\ height\r\n\ @return\ the\ value\ of\ the\ height\ of\ the\ hourglass\r\n
+comment4.params=w
+comment4.target=void\ setWidth(int)
+comment4.text=This\ is\ the\ mutator\ that\ can\ change\ the\ width\ of\ the\ hourglass\r\n\ @param\ w\ integer\ width\ is\ what\ will\ set\ the\ width\ size\ of\ the\ hourglass\r\n
+comment5.params=h
+comment5.target=void\ setHeight(int)
+comment5.text=This\ is\ the\ mutator\ that\ can\ change\ the\ height\ of\ the\ hourglass\r\n\ @param\ h\ integer\ height\ is\ what\ will\ set\ the\ height\ of\ the\ hourglass\r\n
+comment6.params=
+comment6.target=double\ getArea()
+comment6.text=This\ method\ finds\ the\ area\ of\ the\ hourglass\ by\ first\ finding\ the\ area\ of\ a\ rectangle\ based\ on\ the\r\n\ width\ and\ height,\ as\ well\ as\ the\ area\ of\ the\ triangles\ that\ will\ be\ subtracted\ from\ not\ being\ part\ of\ the\r\n\ hourglass\r\n\ @return\ a\ double\ value\ of\ the\ area\ after\ subtracting\ the\ area\ of\ the\ unneeded\ triangles\ of\ the\ side\ of\r\n\ the\ hourglass\ from\ the\ area\ of\ a\ full\ rectangle\r\n
+comment7.params=g
+comment7.target=void\ draw(java.awt.Graphics)
+comment7.text=This\ method\ draws\ the\ final\ shape\ of\ the\ PieSlice\r\n\ @param\ g\ Graphics\ is\ the\ class\ we\ have\ for\ our\ g\ object\ to\ output\ the\ drawing\ of\ the\ hourglass\ shape\r\n
+numComments=8

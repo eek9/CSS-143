@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Stack
+comment0.text=\r\n\ The\ Stack\ class\ will\ contain\ methods\ of\ how\ a\ Stack\ list\ behaves\:\r\n\ the\ LIFO(Last\ In\ First\ Out)\ of\ adding\ objects\ to\ the\ top/front\ of\ the\ list(push),\r\n\ removing\ objects\ from\ the\ list\ at\ the\ top/front\ as\ well.\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 17,\ 2019\r\n
+comment1.params=obj
+comment1.target=void\ push(java.lang.Object)
+comment2.params=
+comment2.target=java.lang.Object\ pop()
+comment3.params=
+comment3.target=int\ size()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=boolean\ isEmpty()
+comment6.params=that
+comment6.target=boolean\ equals(java.lang.Object)
+numComments=7

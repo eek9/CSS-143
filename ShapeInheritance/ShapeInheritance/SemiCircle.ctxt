@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SemiCircle
+comment0.text=\r\n\ The\ SemiCircle\ class\ is\ inherited\ from\ the\ Shape\ class.\r\n\ It\ contains\ a\ data\ member\ of\ a\ radius,\ and\ methods\ of\ the\ accessor/mutator,\ calculation\ of\ the\ area,\ and\r\n\ a\ drawing\ method\ of\ the\ SemiCircle.\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 31,\ 2019\r\n
+comment1.params=x\ y\ r
+comment1.target=SemiCircle(int,\ int,\ double)
+comment1.text=This\ is\ the\ constructor\ for\ our\ child\ class\ where\ we\ also\ plug\ in\ the\ x\ and\ y\ coordinates\ that\r\n\ were\ inherited\ from\ the\ parent\ class,\ Shape\r\n\ @param\ r\ integer\ radius\ of\ the\ SemiCircle\r\n\ @param\ x\ integer\ x\ coordinate\ of\ where\ the\ SemiCircle\ will\ be\ located\r\n\ @param\ y\ integer\ y\ coordinate\ of\ where\ the\ SemiCircle\ will\ be\ located\r\n
+comment2.params=
+comment2.target=double\ getRadius()
+comment2.text=This\ is\ the\ accessor\ of\ the\ radius\r\n\ @return\ the\ size\ of\ the\ radius\ in\ a\ double\ value\r\n
+comment3.params=r
+comment3.target=void\ setRadius(double)
+comment3.text=This\ is\ the\ mutator\ of\ the\ radius\r\n\ @param\ r\ double\ radius\ of\ setting\ a\ different\ value\ to\ the\ radius\r\n
+comment4.params=
+comment4.target=double\ getArea()
+comment4.text=This\ method\ calculates\ the\ area\ of\ the\ SemiCircle\r\n\ @return\ a\ double\ value\ of\ subtracting\ half\ of\ what\ the\ full\ circle\ area\ would\ be\ according\ to\ the\ given\ radius\r\n
+comment5.params=g
+comment5.target=void\ draw(java.awt.Graphics)
+comment5.text=This\ method\ will\ draw\ the\ SemiCircle\r\n\ @param\ g\ Graphics\ is\ the\ class\ we\ have\ for\ our\ g\ object\ to\ output\ the\ drawing\ of\ the\ SemiCircle\ shape\r\n
+numComments=6

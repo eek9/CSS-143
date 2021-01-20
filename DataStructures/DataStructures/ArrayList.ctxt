@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=ArrayList
+comment0.text=\r\n\ The\ ArrayList\ class\ will\ contain\ methods\ of\ how\ an\ ArrayList\ class\ can\ behave\:\r\n\ random\ accessing\ in\ indexes\ of\ different\ parts\ of\ the\ list,\ adding\ in\ any\ areas,\r\n\ removing\ elements\ in\ any\ areas,\ returning\ objects\ that\ are\ removed\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 17,\ 2019\r\n
+comment1.params=obj\ index
+comment1.target=void\ insert(java.lang.Object,\ int)
+comment2.params=index
+comment2.target=java.lang.Object\ remove(int)
+comment3.params=
+comment3.target=int\ size()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=boolean\ isEmpty()
+comment6.params=obj
+comment6.target=int\ indexOf(java.lang.Object)
+comment7.params=that
+comment7.target=boolean\ equals(java.lang.Object)
+comment8.params=index
+comment8.target=java.lang.Object\ get(int)
+numComments=9
