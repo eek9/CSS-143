@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Fraction
+comment0.text=\r\n\ This\ class\ calculates\ the\ ratio\ of\ the\ numerator\ and\ denominator\ of\ the\r\n\ fraction.\ It\ also\ includes\ a\ method\ to\ find\ the\ reduced\ form\ of\ the\ fraction\r\n\ in\ the\ list\ as\ whole\ numbers.\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 10,\ 2019\r\n
+comment1.params=
+comment1.target=Fraction()
+comment10.params=numerator\ denominator
+comment10.target=int\ findGCD(int,\ int)
+comment11.params=numerator\ denominator
+comment11.target=void\ reducedFraction(int,\ int)
+comment2.params=n\ d
+comment2.target=Fraction(int,\ int)
+comment3.params=n\ d
+comment3.target=Fraction(double,\ double)
+comment4.params=that
+comment4.target=boolean\ equals(Fraction)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=
+comment6.target=double\ getNumerator()
+comment7.params=
+comment7.target=double\ getDenominator()
+comment8.params=n\ d
+comment8.target=void\ setFraction(int,\ int)
+comment9.params=n\ d
+comment9.target=void\ setFraction(double,\ double)
+numComments=12

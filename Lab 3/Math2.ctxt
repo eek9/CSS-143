@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Math2
+comment0.text=\r\n\ The\ Math2\ Class\ will\ demonstrate\ the\ use\ of\ a\ final\ constant\ and\ the\ methods\r\n\ coming\ from\ the\ Math\ wrapper\ class.\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 14,\ 2019\r\n
+comment1.params=a\ b
+comment1.target=int\ max(int,\ int)
+comment2.params=a\ b
+comment2.target=double\ max(double,\ double)
+comment3.params=base\ exp
+comment3.target=int\ pow(int,\ int)
+numComments=4

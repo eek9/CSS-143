@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=FractionsV1
+comment0.text=\r\n\ Fractions\ V1\ Assignment\:\r\n\ Create\ a\ class\ that\ will\ read\ a\ file\ with\ a\ set\ of\ fractions\ and\ build\ a\ main\ method\ that\ identifies\r\n\ the\ amount\ of\ occurrences\ of\ each\ fraction.\ The\ output\ should\ print\ out\ the\ list\ of\ unique\ fractions\r\n\ and\ the\ corresponding\ counts.\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 5,\ 2019\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ There\ is\ only\ one\ method\ for\ this\ class\ and\ it\ is\ the\ main,\ which\ will\ calculate\ all\ the\ occurrences\ of\ the\r\n\ same\ value\ fractions\ coming\ from\ the\ list\ of\ fractions\ in\ a\ file.\ There\ is\ a\ FileNotFoundException\r\n\ to\ make\ sure\ that\ the\ file\ is\ able\ to\ read\ in\ order\ for\ the\ rest\ of\ the\ code\ to\ process.\r\n\ Steps\ in\ this\ method\ include\ -\ assigning\ arrays\ for\ the\ list\ of\ values\ to\ compare\ and\ calculating\ the\ fraction\r\n\ values\ to\ count\ the\ occurrences.\r\n
+numComments=2

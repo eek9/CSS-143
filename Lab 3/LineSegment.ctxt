@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=LineSegment
+comment0.text=\r\n\ The\ LineSegment\ class\ will\ use\ the\ Point2D\ class\ to\ create\ objects\ of\ a\r\n\ point\ with\ a\ starting\ coordinate\ point\ and\ an\ ending\ coordinate\ point\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 14,\ 2019\r\n
+comment1.params=
+comment1.target=LineSegment()
+comment2.params=
+comment2.target=java.awt.geom.Point2D\ getStartPoint()
+comment3.params=start
+comment3.target=void\ setStartPoint(java.awt.geom.Point2D)
+comment4.params=
+comment4.target=java.awt.geom.Point2D\ getEndpoint()
+comment5.params=end
+comment5.target=void\ setEndpoint(java.awt.geom.Point2D)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=other
+comment7.target=boolean\ equals(LineSegment)
+numComments=8

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=CharList
+comment0.text=\r\n\ The\ CharList\ Class\ will\ read\ a\ String\ and\ record\ the\ number\ of\ characters\r\n\ that\ was\ included.\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 14,\ 2019\r\n
+comment1.params=
+comment1.target=CharList()
+comment2.params=startStr
+comment2.target=CharList(java.lang.String)
+comment3.params=other
+comment3.target=CharList(CharList)
+comment4.params=next
+comment4.target=void\ add(char)
+comment5.params=index
+comment5.target=char\ get(int)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=that
+comment7.target=boolean\ equals(CharList)
+numComments=8

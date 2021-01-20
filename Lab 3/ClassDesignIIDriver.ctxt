@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ClassDesignIIDriver
+comment0.text=\r\n\ Lab2\ Driver\:\ \ \ ClassDesignIIDriver.java\r\n\ Author\:\ Rob\ Nash,\ (moneyDriver\ by\ JoeMC)\r\n\r\n\ Purpose\:\ This\ is\ a\ test\ file\ to\ be\ included\ in\ the\ same\ (working)\ directory\ as\ your\r\n\ new\ class\ definitions.\ \ Once\ you\ define\ a\ class\ (say,\ the\ Date\ class),\ uncomment\ the\ driver\ code\r\n\ associated\ with\ that\ class\ to\ test\ it.\ \ Match\ your\ output\ with\ the\ provided\ output,\ and\ pay\r\n\ particular\ attention\ to\ each\ new\ technique\ as\ we\ make\ use\ of\ it\ (Overloading,\ Constructors,\ Copy\r\n\ Constructors,\ Access\ Modifiers,\ Class\ Invariants,\ etc.)\r\n\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ dateDriver()
+numComments=3

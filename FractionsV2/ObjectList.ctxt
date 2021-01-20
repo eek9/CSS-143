@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ObjectList
+comment0.text=\r\n\ The\ ObjectList\ class\ is\ what\ we\ are\ reusing\ from\ our\ last\ lab.\ It\ will\r\n\ be\ used\ to\ store\ a\ list\ of\ the\ unique\ FractionCounters\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 10,\ 2019\r\n
+comment1.params=nx
+comment1.target=void\ add(FractionCounter)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

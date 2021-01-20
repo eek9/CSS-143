@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Fraction
+comment0.text=\r\n\ The\ Fraction\ Class\ will\ include\ final\ variables\ of\ a\ numerator\ and\ a\r\n\ denominator.\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 14,\ 2019\r\n
+comment1.params=n\ d
+comment1.target=Fraction(int,\ int)
+comment2.params=other
+comment2.target=Fraction(Fraction)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=that
+comment4.target=Fraction\ add(Fraction)
+comment5.params=other
+comment5.target=boolean\ equals(java.lang.Object)
+numComments=6

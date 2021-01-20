@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Shape
+comment0.text=\r\n\ The\ Shape\ class\ will\ contain\ the\ data\ items\ of\ x,\ y,\ or\ color,\ for\ what\r\n\ all\ shapes\ contain.\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 14,\ 2019\r\n
+comment1.params=
+comment1.target=Shape()
+comment2.params=x\ y\ color
+comment2.target=Shape(int,\ int,\ java.awt.Color)
+comment3.params=other
+comment3.target=Shape(Shape)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=double\ getArea()
+comment6.params=g
+comment6.target=void\ draw(java.awt.Graphics)
+numComments=7
