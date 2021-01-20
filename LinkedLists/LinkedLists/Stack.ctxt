@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Stack
+comment0.text=The\ Stack\ class\ will\ build\ from\ the\ inherited\ List\ class\ and\ behave\ through\r\n\ the\ push\ an\ pop\ functions,\ which\ is\ redirected\ from\ the\ superclass\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 14,\ 2019\r\n
+comment1.params=
+comment1.target=boolean\ isEmpty()
+comment1.text=This\ method\ is\ inherited\ from\ the\ List\ class,\ where\ it\ will\ determine\r\n\ if\ a\ list\ is\ empty\r\n\r\n\ @return\ boolean\ value\ of\ true\ if\ list\ is\ empty\ and\ false\ if\ it\ is\ not\ empty\r\n
+comment2.params=next
+comment2.target=void\ push(java.lang.Object)
+comment2.text=This\ method\ will\ push/add\ an\ object\ to\ the\ top\ of\ the\ "stack"/list\r\n\r\n\ @param\ next\ Object\ next\ will\ be\ passed\ to\ be\ added\ onto\ last\ of\ the\ list\r\n
+comment3.params=next\ index
+comment3.target=void\ insert(java.lang.Object,\ int)
+comment3.text=Overriding\ the\ insert()\ method\ from\ the\ superclass\ to\ push,\ without\ using\r\n\ the\ index\r\n\r\n\ @param\ index\ integer\ index\ of\ location\ to\ insert(this\ parameter\ will\ be\ ignored\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ in\ this\ method\ of\ the\ Stack\ class\ because\ we\ are\ only\ inserting\ to\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ end\ of\ the\ list.\r\n\ @param\ next\ Object\ next\ of\ what\ is\ to\ be\ added\ into\ the\ list\r\n
+comment4.params=
+comment4.target=java.lang.Object\ pop()
+comment4.text=This\ pop\ method\ will\ remove\ only\ from\ the\ end\ of\ the\ list,\ because\ the\ Stack\r\n\ behaves\ as\ a\ LIFO\ structure\r\n\r\n\ @return\ Object\ that\ will\ be\ removed\ from\ the\ list\r\n
+comment5.params=index
+comment5.target=java.lang.Object\ remove(int)
+comment5.text=Overriding\ the\ remove()\ method\ from\ the\ superclass\ to\ pop\ off\ the\ last\r\n\ object\ from\ the\ list.\r\n\r\n\ @param\ index\ integer\ index\ of\ where\ to\ remove(this\ parameter\ will\ not\ be\ applied\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ to\ change\ the\ behavior\ of\ the\ method,\ regardless\ of\ what\ the\ value\ is\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ because\ we\ are\ only\ trying\ to\ pop\ off\ the\ last\ index\ of\ the\ list)\r\n\ @return\ Object\ that\ is\ being\ popped\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

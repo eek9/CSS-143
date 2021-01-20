@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=LinearSearch
+comment0.text=\r\n\ The\ LinearSearch\ class\ is\ inherited\ from\ the\ SearchAlgorithm\ class.\r\n\ Its\ purpose\ is\ to\ find\ a\ String\ target\ through\ a\ linear\ search\ down\ an\ array\r\n\ of\ strings.\ The\ method\ of\ search\ will\ be\ created\ incursively\ and\ recursively\r\n\ in\ this\ class\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 7,\ 2019\r\n
+comment1.params=list\ target
+comment1.target=int\ search(java.lang.String[],\ java.lang.String)
+comment1.text=this\ method\ iteratively\ searches\ for\ a\ target\ string\ from\ a\ String\ list\ through\ loops\r\n\ and\ if\ statement.\r\n\r\n\ @return\ an\ integer\ of\ the\ index\ where\ the\ target\ is\ found\r\n\ @throws\ ItemNotFoundException\ when\ the\ target\ is\ not\ found\ in\ the\ given\ list\r\n
+comment2.params=list\ target
+comment2.target=int\ recSearch(java.lang.String[],\ java.lang.String)
+comment2.text=this\ method\ recursively\ searches\ through\ the\ list\ with\ the\ help\ of\ another\r\n\ method,\ recSearchHelper\r\n\r\n\ @return\ an\ integer\ of\ the\ index\ where\ the\ target\ appears\r\n\ @throws\ ItemNotFoundException\ when\ the\ target\ is\ not\ found\ in\ the\ given\ list\r\n
+comment3.params=list\ target\ index
+comment3.target=int\ recSearchHelper(java.lang.String[],\ java.lang.String,\ int)
+comment3.text=this\ method\ is\ a\ helper\ for\ the\ recursive\ method\ search.\ Its\ purpose\ is\ to\r\n\ keep\ track\ of\ the\ count\ of\ index\ as\ it\ goes\ down\ the\ list\ until\ it\ reaches\r\n\ the\ target\ file,\ through\ recursively\ calling\ the\ same\ method\ but\ changing\ the\r\n\ parameter\ of\ the\ index\ as\ it\ goes\ down\ the\ list\ by\ 1\r\n\r\n\ @return\ an\ integer\ of\ where\ the\ target\ appears\ in\ the\ index\r\n\ @throws\ ItemNotFoundException\ when\ the\ target\ is\ not\ found\ in\ the\ given\ list\r\n
+numComments=4

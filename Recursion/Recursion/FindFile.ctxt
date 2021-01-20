@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=FindFile
+comment0.text=\r\n\ The\ FindFile\ class\ will\ have\ a\ target\ file\ that\ is\ to\ be\ found\ in\ a\ given\r\n\ path,\ which\ will\ return\ the\ location\ of\ where\ it\ is\ found.\r\n\ The\ methods\ in\ this\ class\ will\ consist\ of\ a\ constructor,\r\n\ directorySearch,\ getCount,\ and\ a\ getFiles\ method.\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 7,\ 2019\r\n
+comment1.params=maxFiles
+comment1.target=FindFile(int)
+comment1.text=This\ constructor\ accepts\ the\ maximum\ number\ of\ files\ to\ find.\r\n\r\n\ @param\ maxFiles\ integer\ maximum\ number\ of\ files\ used\ to\ find\ the\ target\r\n
+comment2.params=target\ dirName
+comment2.target=void\ directorySearch(java.lang.String,\ java.lang.String)
+comment2.text=this\ method\ will\ calculate\ where\ to\ look\ for\ the\ target\ in\ the\ directory\r\n\ name\ through\ recursively\ looking\ through\ each\ one\ to\ check\ and\ see\ if\ it\r\n\ makes\ a\ match\ to\ the\ name\ of\ the\ target.\ The\ parameters\ are\ the\ target\ file\r\n\ name\ to\ look\ for\ and\ the\ directory\ to\ start\ in\r\n\r\n\ @param\ target\ String\ of\ the\ name\ of\ the\ target\ file\ to\ be\ found\r\n\ @param\ dirName\ String\ name\ of\ the\ directory\ to\ be\ found\ from\r\n
+comment3.params=
+comment3.target=int\ getCount()
+comment3.text=This\ accessor\ returns\ the\ number\ of\ matching\ files\ found\r\n\r\n\ @return\ an\ integer\ of\ the\ amount\ of\ occurrences\ the\ target\ file\ has\ been\ found\r\n
+comment4.params=
+comment4.target=java.lang.String[]\ getFiles()
+comment4.text=This\ getter\ returns\ the\ array\ of\ file\ locations,\ up\ to\ maxFiles\ in\ size.\r\n\r\n\ @return\ a\ String\ array\ in\ the\ names\ of\ files\ where\ the\ target\ appears\r\n
+numComments=5

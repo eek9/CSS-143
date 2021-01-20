@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=LinkedListException
+comment0.text=The\ LinkedListException\ class\ inherits\ from\ the\ RuntimeException\ class\r\n\ as\ we\ use\ this\ to\ throw\ an\ exception\ when\ a\ situation\ occurs\ in\ the\ code\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 14,\ 2019\r\n
+comment1.params=
+comment1.target=LinkedListException()
+comment1.text=Default\ constructor\ of\ the\ class\ that\ also\ calls\ the\ default\ constructor\r\n\ of\ the\ superclass\r\n
+comment2.params=msg
+comment2.target=LinkedListException(java.lang.String)
+comment2.text=A\ constructor\ of\ the\ class\ that\ will\ print\ out\ a\ customized\ message\r\n\ when\ the\ exception\ is\ caught\r\n\r\n\ @param\ msg\ String\ message\ of\ what\ to\ display\ when\ the\ exception\ is\ caught\r\n\ \ \ \ \ \ \ \ \ \ \ \ in\ a\ certain\ area\r\n
+numComments=3

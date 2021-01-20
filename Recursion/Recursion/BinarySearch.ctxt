@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BinarySearch
+comment0.text=\r\n\ The\ BinarySearch\ class\ extends\ from\ the\ SearchAlgorithm\ class.\r\n\ It\ will\ search\ for\ the\ target\ in\ a\ String\ array\ by\ splitting\ the\ section\r\n\ into\ half,\ and\ determining\ if\ the\ target\ will\ appear\ in\ the\ first\ half\r\n\ or\ second\ half\ of\ the\ array.\ From\ there,\ it\ will\ work\ its\ way\ up\ or\ down\ the\r\n\ list\ to\ search\ for\ the\ target.\r\n\r\n\ @author\ Eunhee\ Kim\r\n\ @version\ October\ 7,\ 2019\r\n
+comment1.params=list\ target
+comment1.target=int\ search(java.lang.String[],\ java.lang.String)
+comment1.text=this\ method\ will\ iteratively\ search\ for\ the\ target\ by\ only\ using\ loops\r\n\ and\ if\ statements\ while\ splitting\ the\ index\ into\ 2\ and\ finding\ its\ way\r\n\ for\ a\ match\ from\ either\ going\ up\ or\ down\ the\ array\r\n\r\n\ @return\ integer\ of\ how\ which\ index\ the\ target\ will\ appear\r\n
+comment2.params=list\ target
+comment2.target=int\ recSearch(java.lang.String[],\ java.lang.String)
+comment2.text=this\ method\ will\ recursively\ search\ for\ the\ index\ of\ the\ target\ through\r\n\ the\ help\ of\ another\ method,\ recSearchHelper\ which\ receives\ 2\ more\ passing\r\n\ parameters\ of\ a\ lowIndex\ and\ highIndex\ to\ direct\ which\ direction\ to\ go\r\n\r\n\ @return\ an\ integer\ of\ which\ index\ the\ target\ will\ be\ found\r\n
+comment3.params=list\ target\ lowIndex\ highIndex
+comment3.target=int\ recSearchHelper(java.lang.String[],\ java.lang.String,\ int,\ int)
+comment3.text=this\ method\ will\ help\ the\ resursive\ search\ by\ determining\ which\ direction\ to\r\n\ continue\ searching\ for\ the\ target\ based\ on\ if\ it\ will\ occur\ before\ the\r\n\ middle\ index\ or\ after\ the\ middle\ index\r\n\r\n\ @return\ an\ integer\ of\ which\ index\ the\ target\ will\ be\ found\r\n
+numComments=4
